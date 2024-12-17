@@ -1,4 +1,4 @@
-package day1;
+package day3;
 
 public class Operators {
 	public static void main(String[] args) {
@@ -58,9 +58,7 @@ public class Operators {
 	
 	// conditional Operator
 	System.out.println("Conditional Operators:");
-	if(  i%2==0 ) {
-		System.out.println(i + " is Even");
-	}
-	else {
-		System.out.println(i + " is Odd");
-}}}
+	  int  n=11;
+  String even=(a<n)? "12 is even" : " 11 is odd";
+ System.out.println(  even );
+}}
