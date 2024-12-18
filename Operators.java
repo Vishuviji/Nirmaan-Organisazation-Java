@@ -58,7 +58,7 @@ public class Operators {
 	
 	// conditional Operator
 	System.out.println("Conditional Operators:");
-	  int  n=11;
-  String even=(a<n)? "12 is even" : " 11 is odd";
- System.out.println(  even );
+	String result = (i%2==0)?"12 is Even" :"12 is Odd";
+		System.out.println(result);
+
 }}
