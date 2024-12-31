@@ -2,7 +2,7 @@ package day8;
 
 
 public class EmployeeDetails {
-	 String name;
+	/* String name;
 	 int age;
 	 String dob;
 	 double salary;
@@ -51,6 +51,52 @@ public class EmployeeDetails {
 	System.out.println("employee salary: "+emp3.salary);
 	System.out.println("employee phonenumber: "+emp3.phonenumber);
 	System.out.println("employee id: "+emp3.id);
+	*/
+	int firstnum;
+	int secondnum;
 	
+	void Add() {
+	System.out.println("Add :"+(firstnum+secondnum) );
+}
+	void Sub() {
+		System.out.println("Sub :"+(firstnum-secondnum) );
+	}
+	void Mul() {
+		System.out.println("Mul :"+(firstnum*secondnum) );
+	}
+	void Div() {
+		System.out.println("Div :"+(firstnum/secondnum) );
+	}
+	void Mod() {
+		System.out.println("Mod:"+(firstnum%secondnum) );
+	}
+	 public static void main (String []args) {
+		 EmployeeDetails Calc1=new EmployeeDetails();
+		 Calc1.firstnum=25;
+		 Calc1.secondnum=10;
+		 Calc1.Add();
+		 Calc1.Sub();
+		 Calc1.Mul();
+		 Calc1.Div();
+		 Calc1.Mod();
+		 
+		 EmployeeDetails Calc2=new EmployeeDetails();
+		 Calc2.firstnum=35;
+		 Calc2.secondnum=5;
+		 Calc2.Add();
+		 Calc2.Sub();
+		 Calc2.Mul();
+		 Calc2.Div();
+		 Calc2.Mod();
+		 
+
+		 EmployeeDetails Calc3=new EmployeeDetails();
+		 Calc3.firstnum=125;
+		 Calc3.secondnum=8;
+		 Calc3.Add();
+		 Calc3.Sub();
+		 Calc3.Mul();
+		 Calc3.Div();
+		 Calc3.Mod();
 }
 }
